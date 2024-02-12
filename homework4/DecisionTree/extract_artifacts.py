@@ -2,9 +2,9 @@ import os
 import pefile
 import glob
 
-csv = file('My_own_MalwareArtifacts.csv','w')
+csv = file('Homework_MalwareArtifacts.csv','w')
 
-files = glob.glob('c:\\MalwareSamples\\*.exe')
+files = glob.glob('/home/pavlo/Public/AI cybersecurity/homeworks/homework4/DecisionTree/viruses/*.exe')
 
 csv.write("AddressOfEntryPoint,MajorLinkerVersion,MajorImageVersion,
 MajorOperatingSystemVersion,,DllCharacteristics,SizeOfStackReserve,
